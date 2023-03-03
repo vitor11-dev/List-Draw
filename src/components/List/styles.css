@@ -1,0 +1,35 @@
+.list-container {
+  width: 30rem;
+  max-height: 80vh;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  overflow-y: scroll;
+}
+
+.list-container table {
+  width: 100%;
+}
+
+.list-container table thead tr {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  background-color: orange;
+}
+
+.list-container table tbody tr {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 1fr;
+  place-items: center;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  background-color: #cecece;
+}
